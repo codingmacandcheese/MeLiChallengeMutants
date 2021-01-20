@@ -5,7 +5,7 @@
   "main": "index.route.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Macarena Pomerantz",
   "license": "ISC",
