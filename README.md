@@ -19,7 +19,7 @@ Hecho esto, ya podrás realizar llamadas a la API sin inconvenientes.
 
 Recibe un array de Strings que representa una secuencia de ADN y devuelve si la misma pertenece a un mutante o no.
 
-- **URL:** http://lcoalhost:3000/mutant/
+- **URL:** https://melichallengemutants.herokuapp.com/mutant/
 
 - **Method:** POST
 
@@ -40,7 +40,7 @@ Recibe un array de Strings que representa una secuencia de ADN y devuelve si la 
 
 Devuelve estadísticas de las verificaciones de ADN hechas.
 
-- **URL:** http://lcoalhost:3000/stats
+- **URL:** https://melichallengemutants.herokuapp.com/stats
 
 - **Method:** GET
 
