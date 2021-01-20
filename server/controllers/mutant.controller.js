@@ -7,6 +7,9 @@ const MIN_LENGTH = 4;
 const DNA_LETTERS = /^[ATGC]+$/i;
 
 exports.isMutant = async function (req, res) {
+    if (!req.body.dna) {
+        return res.status(400).json({ ok: false, error: { message: 'dna body param is mandatory' }, status: 400 });
+    }
     if (!req.body.dna.length) {
         return res.status(400).json({ ok: false, error: { message: 'dna body param is mandatory' }, status: 400 });
     }
